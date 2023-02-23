@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazkide bihurtu</title>
+    <link rel="shortcut icon" href="assets/painballogo.png.crdownload">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/Pattern.js"></script>
+    <script src="js/Formulario1.js"></script>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1><img class="logohasiera" src="assets/painballogo.png.crdownload" alt="" width="100%"></h1>
+				
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a class="hasiera"href="./index.html">Hasiera</a>
+			<a class="informazioa"href="./informazioa.html">Informazioa</a>
+			<a class="kontaktua"href="./klasifikazioa.html">Klasifikazioa</a>
+			<a class="bazkide"href="./bazkide.html">Bazkide bihurtu</a>
+			<a class="klasifikazioa"href="./kontaktua.html">Kontaktua</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+
+<h1 class="titulua5"><strong>Bazkide bihurtu</strong></h1>
+<div class="linea9">
+    <p>_</p>
+</div>
+
+<div class="Div-Form">
+    <div class="Formulario">
+        <h3>Kontaktatu Gurekin</h3>
+        <form onsubmit="return Validar()" method="post">
+            <p>
+                <label>Izena *</label>
+                <input type="text" id="Izena">
+
+            </p>
+
+            <p>
+                <label>Abizena *</label>
+                <input type="text" id="Abizena" tittle="Gehienez 30 letra eta letra txikiarekin">
+
+            </p>
+            <p>
+                <label>Zure email-a *</label>
+                <input type="email" id="Email" tittle="Txarto idatzi duzu emaila">
+
+            </p>
+            <p>
+                <label>Telefonoa *</label>
+                <input type="tel" id="Telf">
+
+            </p>
+            <p class="block">
+                <label>Mezua</label>
+                <textarea id="Mezua" rows="3"></textarea>
+
+            </p>
+            <p>
+                <input type="radio" id="Gizona" name="sexo" value="v" /> Gizona<br />
+                <input type="radio" id="Emakumea" name="sexo" value="m" /> Emakumea<br />
+            </p>
+            <p class="block">
+                <button type="submit" id="btnGorde" onclick="gordeBezero()" onmousedown="onmousedown1()"
+                    onmouseup="onmouseup1()" onmouseover="onmouseover1()" onmouseout="onmouseout1()">
+                    BIDALI
+                </button>
+            </p>
+
+            <p class="block">
+                <button type="button" id="btnIkusi" onclick="JSON_Bezero()" onmousedown="onmousedown2()"
+                onmouseup="onmouseup2()"  onmouseover="onmouseover2()" onmouseout="onmouseout2()">
+                    IMPRIMATU
+                </button>
+
+                <p class="block">
+                    <button type="reset" id="btnGarbitu" onclick="LocalEzabatu()" onmousedown="onmousedown3()"
+                    onmouseup="onmouseup3()" onmouseover="onmouseover3()" onmouseout="onmouseout3()">
+                        DATU GUZTIAK GARBITU
+                    </button>
+
+                    <p class="block">
+                        <button type="reset" id="Ezabatu1" onclick="Ezabatu()" onmousedown="onmousedown4()"
+                            onmouseup="onmouseup4()" onmouseover="onmouseover4()" onmouseout="onmouseout4()">
+                            EZABATU
+                        </button>
+                    </p>
+                    <p></p>
+        </form>
+    </div>
+    <div class="contact-info">
+        <h4>Informazio gehiago</h4><br>
+        <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Ornilla Doctor Kalea, 2, 48004 Bilbo, Bizkaia</li> <br><br>
+            <li><i class="fas fa-phone"></i> (+34) 944 12 57 12</li><br><br>
+            <li><i class="fas fa-envelope-open-text"></i> paintballllfed@gmail.com</li><br><br>
+        </ul>
+        <p>klasifikazioari buruz informazioa behar duzu?<br>
+            gurekin kontaktuan jarri!</p>
+        <p>paintballllfed.com</p>
+        <br><br><br>
+        <p id="par1"></p>
+        <p id="par2"></p>
+        <p id="par3"></p>
+        <p id="par6"></p>
+        <p id="par4"></p>
+        <p id="par5"></p>
+        
+    </div>
+</div>
+   
+<footer class="pie-pagina">
+	<div class="grupo-1">
+		<div class="box">
+			<figure>
+				<a href="#">
+					<img src="assets/painballogo.png.crdownload" alt="Logo de SLee Dw">
+				</a>
+			</figure>
+		</div>
+		<div class="box">
+			<h2 style="color: rgb(255, 255, 255);">GURI BURUZ</h2>
+			<p style="color: rgb(255, 255, 255);">Direkzioa: 600 W Central Texas Expy, Harker Heights, TX 76548, Estatu Batuak</p>
+			<p style="color: rgb(255, 255, 255);">Posta elektronikoa: <i>paintballllfed@bfg.com</p>
+			<br>
+			<p style="color: rgb(255, 255, 255);">Telefonoa: 944 12 54 12</p>
+		</div>
+		<div class="box">
+			<h2 style="color: rgb(255, 255, 255);">SARE SOZIALAK</h2>
+			<div class="red-social">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-youtube"></a>
+			</div>
+		</div>
+	</div>
+	<div class="grupo-2">
+		<small>&copy; 2023 <b>Paintball federazioa</b> - Eskubide guztiak erreserbatuta.</small>
+	</div>
+</footer>
+
+</body>
+</html>

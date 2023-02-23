@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktua</title>
+    <link rel="shortcut icon" href="assets/painballogo.png.crdownload">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1><img class="logohasiera" src="assets/painballogo.png.crdownload" alt="" width="100%"></h1>
+				
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a class="hasiera"href="./index.html">Hasiera</a>
+			<a class="informazioa"href="./informazioa.html">Informazioa</a>
+			<a class="kontaktua"href="./klasifikazioa.html">Klasifikazioa</a>
+			<a class="bazkide"href="./bazkide.html">Bazkide bihurtu</a>
+			<a class="klasifikazioa"href="./kontaktua.html">Kontaktua</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+<h1 class="titulua3"><strong>NON GAUDE?</strong></h1>
+<div class="linea5">
+    <p>_</p>
+</div>
+    <div class="divmapa">
+        <p class="textkontak">ERABILI GURE MAPA INTERAKTIBOA!</p>
+
+        <table class="taulakontak">
+
+            <tr>
+          
+              <td><img src="assets/telefonoa.png" height="25px">&#160 &#160 Telefonoa:</td>
+          
+              <td> &#160 &#160 944 12 54 12</td>
+          
+            </tr>
+
+          
+            <tr>
+          
+              <td><img src="assets/gmail.png" height="30px">&#160 &#160 Gmail:</td>
+          
+              <td> &#160 &#160 paintballllfed@bfg.com</td>
+          
+            </tr>
+
+            <tr>
+          
+                <td><img src="assets/reloj.png" height="30px">&#160 &#160 Ordutegia:</td>
+            
+                <td> &#160 &#160 Goizez: 10:00 - 14:30 <br> &#160 &#160 Arratsaldez: 16:00 - 20:00</td>
+            
+            </tr>
+
+            <tr>
+          
+                <td><img src="assets/maps.png" height="30px">&#160 &#160 Helbidea:</td>
+            
+                <td> &#160 &#160 Ornilla Doctor Kalea, 2, 48004 Bilbo, Bizkaia</td>
+            
+            </tr>
+          
+          </table>
+
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3417.356934839757!2d-97.68071838501575!3d31.071996981520204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86454998eff765e7%3A0x1fa46805268a7c9d!2s600%20W%20Central%20Texas%20Expy%2C%20Harker%20Heights%2C%20TX%2076548%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1667380464364!5m2!1ses!2ses"
+            width="100%" height="600" class="mapsmapa" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="linea6">
+        <p>_</p>
+    </div>
+
+
+    <form class="form" method="get">
+
+        <fieldset>
+        <legend class="formtxt">Iritzia</legend>
+
+        <p id="izena">Izena: <span class="required">*</span> <input class="input" type="text" name="izena" size="40" placeholder="Adb.: Alex"
+                pattern="[A-Za-zÑñ]+" title="Zenbaki gabe" required></p>
+
+        <p id="JaiotzeUrtea">Jaiotze urtea: <span class="required">* </span><input class="input" type="number" name="JaioUrtea"
+                min="1900" size="40" placeholder="Adb.: 2003" pattern="[0-9]" minlength="4" maxlength="4"
+                title="Letra gabe (zenbakiak bakarrik)" required></p>
+
+        <p id="Sexua" required>Sexua: <span class="required">* </span>
+            <input class="inputEs" type="radio" name="hm" value="g"> Gizona
+            <input class="inputEs" type="radio" name="hm" value="e"> Emakumea
+        </p>
+
+        <p id="iritzia"> (Txarra / Normala / Ona): <span class="required">* </span>
+        <input class="input" type="range" name="rango" min="1" max="3" list="lista-rango" required>
+        <datalist id="lista-rango">
+            <option value="1" label="Txarra">
+            <option value="2" label="Normal">
+            <option value="3" label="Ona">
+        </datalist>
+        </p>
+
+
+        <br><br>
+
+        <textarea class="input" id="iritzia" placeholder="Iritzi pertsonala (250 karaktere gehienez)" maxlength="250" name="testua"
+            rows="4" cols="50"></textarea>
+
+        <p id="Botoiak">
+            <input class="input_btn" id="ezabatu" type="reset" value="Ezabatu">
+            <input class="input_btn" type="submit" value="Bidali">
+        </p>
+    </fieldset>
+    </form>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="assets/painballogo.png.crdownload" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2 style="color: rgb(255, 255, 255);">GURI BURUZ</h2>
+                <p style="color: rgb(255, 255, 255);">Direkzioa: 600 W Central Texas Expy, Harker Heights, TX 76548, Estatu Batuak</p>
+                <p style="color: rgb(255, 255, 255);">Posta elektronikoa: <i>paintballllfed@bfg.com</p>
+                <br>
+                <p style="color: rgb(255, 255, 255);">Telefonoa: 944 12 54 12</p>
+            </div>
+            <div class="box">
+                <h2 style="color: rgb(255, 255, 255);">SARE SOZIALAK</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Paintball federazioa</b> - Eskubide guztiak erreserbatuta.</small>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
