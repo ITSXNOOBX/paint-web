@@ -345,6 +345,7 @@ footer {
 
 
 .container__cards {
+	z-index: -1;
 	padding-bottom: 50px;
 	width: 80%;
 	margin: auto;
@@ -841,7 +842,9 @@ thead {
 }
 
 #container2 {
-	margin: 5% auto;
+	padding: 2%;
+	margin-right: 4%;
+	margin-left: 18%;
 	width: 65%;
 
 }
@@ -852,12 +855,14 @@ thead {
 
 
 .ligatituluak {
+	padding: 2%;
 	background-color: #ffa200;
 	color: white;
 	border-bottom: solid 5px #000000;
 }
 
-#container2 td {
+#container2 td  {
+	padding: 2%;
 	color: #ffffff;
 	background: rgba(255, 255, 255, 0.1);
 	backdrop-filter: blur(5px);
