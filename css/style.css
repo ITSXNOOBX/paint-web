@@ -681,26 +681,31 @@ legend {
 	color: rgb(232, 156, 255);
 	margin-top: 6%;
 	margin-left: 6%;
+	width: 90%;
 }
 
 #izena {
 	padding-top: 1%;
 	padding-left: 6%;
+	width: 90%;
 }
 
 #JaiotzeUrtea {
 	padding-top: 2%;
 	padding-left: 6%;
+	width: 90%;
 }
 
 #Sexua {
 	padding-top: 5%;
 	padding-left: 6%;
+	width: 90%;
 }
 
 #iritzia {
 	padding-top: 2%;
 	padding-left: 6%;
+	width: 90%;
 }
 
 #Botoiak {
